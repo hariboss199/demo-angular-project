@@ -1,4 +1,4 @@
-# Default template
+# Angular-projenct 
 Template for angular application with a lazy-loadable structure.
 
 `share` – a folder for shared pieces of code:
