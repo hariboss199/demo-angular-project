@@ -26,7 +26,7 @@ pipeline {
             steps {
 				 sh '''
                
-                cd $WORKSPACE/dist/project/
+                cd $WORKSPACE/dist/hack/
 				aws s3 rm s3://$BUCKET_NAME  --recursive
 				aws s3 cp . s3://$BUCKET_NAME --recursive
                 
